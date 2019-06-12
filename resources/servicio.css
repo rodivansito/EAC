@@ -1,0 +1,77 @@
+html {
+  font-size: 16px;
+  font-family: monospace;
+}
+h1 {
+  color: #8C9454;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.navbar-brand {
+  padding-right: 2rem;
+}
+
+.btn {
+  background-color: #8C9454;
+  border-color: #5767;
+
+}
+
+.btn:hover {
+  background-color: #908419;
+}
+footer {
+  background-color: #5767;
+  color: white;
+}
+.fa-whatsapp  {
+  color:#fff;
+  background:
+  linear-gradient(#25d366,#25d366)10px 84%/10px 9px no-repeat,
+  radial-gradient(circle at center, #25d366 63%,transparent 0);
+}
+.fa-instagram  {
+
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+
+
+}
+
+.last {background-color: black;
+      color: white;}
+
+.fa-phone {
+  color: #44444C;
+
+}
+.last p {
+  font-size: 0.75rem;
+  color: white;
+}
+
+.last a {
+  color: white;
+  font-size: 0.75rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-left: 5rem;
+}
+
+.card-body {
+  font-size: 1.5rem;
+}
