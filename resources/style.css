@@ -13,7 +13,7 @@ h1 {
 
 .btn {
   background-color:#8C9454;
-  
+
   border-color: black;
 
 }
@@ -86,4 +86,23 @@ footer {
 
 .card-text {
 
+}
+
+/* Not active */
+
+.nav-pills .nav-link .active{
+  background-color: gold;
+}
+
+.nav-link {
+  color: #8C9454;
+}
+
+.navlink:hover {
+  background-color: white;
+}
+
+.tab-content {
+  background-color: black;
+  color: white;
 }
