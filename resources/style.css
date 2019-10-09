@@ -83,23 +83,53 @@ footer {
 .card-img-overlay {
   top: 65%;
   bottom: auto;
-
+  max-height: 270px;
 }
 
-.card-title {
+@media only screen and (max-width:576px){
 
-}
+
+
+
+
+  .card-img-overlay {
+    top: 60%;
+  }
+
+  .card-img-overlay p {
+    font-size: 0.75rem;
+
+  }
+
+  .card-img-overlay h2 {
+    font-size: 1.3rem;
+  }
+
+  .card-img-overlay .btn {
+   font-size: 0.8rem;
+  }
 
 .card-text {
+  display: none;
+}
+
+
+  .btn {
+    font-size: 80%;
+  }
 
 }
+
+
 
 /* Not active */
 
 .nav-pills .nav-link .active{
   background-color: gold;
 }
-
+.navlink:active {
+  background-color: #8C9454;
+}
 .nav-link {
   color: #8C9454;
 }

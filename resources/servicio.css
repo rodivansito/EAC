@@ -6,6 +6,9 @@ h1 {
   color: #8C9454;
   font-weight: bold;
 }
+ul li {
+  font-size: 1rem;
+}
 
 p {
   font-size: 1rem;
@@ -74,4 +77,8 @@ footer {
 
 .card-body {
   font-size: 1.5rem;
+}
+
+.titulo {
+  padding: 1rem;
 }
