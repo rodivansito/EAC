@@ -99,13 +99,8 @@ footer {
 @media only screen and (max-width:576px){
 
 
-
-
-
   .card-img-overlay {
-    top: 55%;
-    bottom: auto;
-
+    top: 40%;
   }
 
   .card-img-overlay p {
@@ -121,21 +116,33 @@ footer {
    font-size: 0.8rem;
   }
 
-.card-text {
-  display: none;
-}
 
 
   .btn {
-    font-size: 65%;
+    font-size: 80%;
   }
 
-}
+  .carousel-caption {
+    top: 40%;
+  }
+
+  .carousel-caption p {
+    display: none;
+  }
+
+  .carousel-caption h1 {
+  font-size: 1.3rem;
+  }
+
+  .carousel-caption .btn {
+  display: none;
+  font-size: 0.8rem;
+
+  }
 
 img {
-  width:
+width: 100%;
+height: auto;
 }
-
-
 
 }
